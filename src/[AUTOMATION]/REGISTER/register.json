@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "acao": "navegar",
+      "url": "https://signin.rockstargames.com/create/date-of-birth?cid=rsg",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Navegando para a rockstar", "level": "debug" }
+    },
+    {
+      "acao": "clicar",
+      "seletor": "#app-page > div:nth-child(2) > div.Container__container__k4t_f.CreateAccount__dateOfBirthContainer__KD3ny > form > fieldset > div > div > div > div > div:nth-child(1) > div > select",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Clicando em Month.", "level": "debug" }
+    },
+    {
+      "acao": "setaBaixo",
+      "QtdClicks": [1, 1],
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Pressionando seta para baixo", "level": "debug" }
+    },
+    {
+      "acao": "clicar",
+      "seletor": "#app-page > div:nth-child(2) > div.Container__container__k4t_f.CreateAccount__dateOfBirthContainer__KD3ny > form > fieldset > div > div > div > div > div:nth-child(2) > div > select",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Clicando em Day", "level": "debug" }
+    },
+    {
+      "acao": "setaBaixo",
+      "QtdClicks": [3, 3],
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Pressionando seta para baixo", "level": "debug" }
+    },
+    {
+      "acao": "escrever",
+      "seletor": "#app-page > div:nth-child(2) > div.Container__container__k4t_f.CreateAccount__dateOfBirthContainer__KD3ny > form > fieldset > div > div > div > div > div:nth-child(3) > div > select",
+      "valor": "1970",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "tempoLetraEscrita": [0, 0],
+      "logging": { "mensagem": "Digitando 1970 no ano", "level": "debug" }
+    },
+    {
+      "acao": "clicar",
+      "seletor": "#app-page > div:nth-child(2) > div.Container__container__k4t_f.CreateAccount__dateOfBirthContainer__KD3ny > form > div > div > div > button",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Clicando next", "level": "debug" }
+    },
+    {
+      "acao": "clicar",
+      "seletor": "#app-page > div:nth-child(2) > div > form > div > div > div.LegalPolicy__checkbox__Pz8QO > span > label",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Aceitando termos", "level": "debug" }
+    },
+    {
+      "acao": "clicar",
+      "seletor": "#app-page > div:nth-child(2) > div > form > div > div > div:nth-child(5) > div > button.UI__Button-socialclub__btn.UI__Button-socialclub__primary.UI__Button-socialclub__medium.LegalPolicy__next__bgMCq > div",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Clicando proximo", "level": "debug" }
+    },
+    {
+      "acao": "colar",
+      "seletor": "[data-ui-name='emailInput']",
+      "valor": "email",
+      "tempoDestaAcaoIniciar": [1000, 1000],
+      "logging": { "mensagem": "Adicionando email", "level": "debug" }
+    },
+    {
+      "acao": "colar",
+      "seletor": "[data-ui-name='passwordInput']",
+      "valor": "password",
+      "tempoDestaAcaoIniciar": [0, 0],
+      "logging": { "mensagem": "Adicionando senha", "level": "debug" }
+    },
+    {
+      "acao": "colar",
+      "seletor": "[data-ui-name='nicknameInput']",
+      "valor": "displayName",
+      "tempoDestaAcaoIniciar": [1000, 1000],
+      "logging": { "mensagem": "Adicionando apelido", "level": "debug" }
+    },
+    {
+      "acao": "clicar",
+      "seletor": "[data-ui-name='nextButton']",
+      "tempoDestaAcaoIniciar": [1000, 1000],
+      "logging": { "mensagem": "Clicando em next", "level": "debug" }
+    },
+    {
+      "acao": "script",
+      "scriptPath": "src/[AUTOMATION]/REGISTER/scripts/verification/index.js",
+      "params": { "code": "codigo2FA" },
+      "tempoDestaAcaoIniciar": [5000, 5000],
+      "logging": { "mensagem": "Iniciando processo de verificagem de erros", "level": "debug" }
+    }
+  ]
+}
